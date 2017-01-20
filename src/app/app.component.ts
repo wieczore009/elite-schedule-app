@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
-import {MyteamsPage } from '../pages/pages';
+import {MyTeamsPage } from './pages/pages';
 
 
 
@@ -11,7 +11,7 @@ import {MyteamsPage } from '../pages/pages';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = MyteamsPage;
+  rootPage: any = MyTeamsPage;
 
 
 
@@ -20,7 +20,7 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
 
-    ];
+
 
   }
 
